@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orders-serverless-api
+  title: orders serverless API (dev)
+  description: Serverless API infrastructure for orders on AWS (dev)
+  annotations:
+    github.com/project-slug: example-org/orders-serverless-api
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - serverless
+    - api
+    - aws
+spec:
+  type: infrastructure
+  lifecycle: experimental
+  owner: group:default/platform-team

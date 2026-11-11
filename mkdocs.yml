@@ -1,0 +1,9 @@
+site_name: orders serverless API
+site_description: Serverless API infrastructure for orders (dev)
+
+nav:
+  - Overview: index.md
+  - Infrastructure: infrastructure.md
+
+plugins:
+  - techdocs-core
